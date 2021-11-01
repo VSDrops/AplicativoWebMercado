@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/dashboard.dart';
+import 'package:untitled/pages/landingPage.dart';
+//import 'package:untitled/dashboard.dart';
+
+import 'sidebar/sidebar_layout.dart';
 
 void main() => runApp(MyApp());
 
@@ -7,11 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Web Mercado',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        scaffoldBackgroundColor: Colors.white,
+        primaryColor: Colors.white
       ),
-      home: MenuDarshboardpage(),
+      home: LandingPage(),
     );
   }
 }
