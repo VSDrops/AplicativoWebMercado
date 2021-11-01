@@ -15,7 +15,11 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primaryColor: Colors.white
       ),
+<<<<<<< HEAD
       home: LandingPage(),
+=======
+      home: SideBarLayout(),
+>>>>>>> e569784b09c2c0becc4c46fb92804ac8661ca7c4
     );
   }
 }
