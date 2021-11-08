@@ -1,25 +1,22 @@
-import 'package:flutter/material.dart';
-import 'package:untitled/fancybutton.dart';
+/*import 'package:flutter/material.dart';
 
 class LandingPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
+    return Container(
+      
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(40, 550, 40, 50),
         child: Container(
-          decoration: BoxDecoration(
-            color: Color(0xFFA30004),
-            image: DecorationImage(
-              image: NetworkImage('https://blog.rcky.com.br/wp-content/uploads/2020/01/minimercado.jpg'),
-              fit: BoxFit.cover,
-              colorFilter: ColorFilter.mode(
-                  Colors.red.shade50.withOpacity(0.1), BlendMode.dstATop),
-            ),
-          ),
+          color: Color(0xFFB60000),
         ),
       ),
-    //floatingActionButton: FancyButton(onPressed: ),
+    decoration: DecoratedBox(
+        decoration:,
+    ),
+    
     );
   }
 }
+*/

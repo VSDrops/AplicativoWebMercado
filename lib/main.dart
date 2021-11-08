@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/pages/landingPage.dart';
-//import 'package:untitled/dashboard.dart';
-
 import 'sidebar/sidebar_layout.dart';
 
 void main() => runApp(MyApp());
@@ -15,11 +12,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primaryColor: Colors.white
       ),
-<<<<<<< HEAD
-      home: LandingPage(),
-=======
       home: SideBarLayout(),
->>>>>>> e569784b09c2c0becc4c46fb92804ac8661ca7c4
     );
   }
 }
